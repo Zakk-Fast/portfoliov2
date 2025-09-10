@@ -1,4 +1,4 @@
-import { ExternalLink, GitBranch, Github } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { ProjectType } from "@/app/types/Project";
 
 interface ProjectCardProps {
@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <img src={image} alt="" className="w-full h-full object-cover" />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white flex flex-col justify-end p-4 lg:p-8 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white flex flex-col justify-end p-4 lg:p-8 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 h-full">
         <h3 className="text-lg lg:text-2xl font-bold pb-2">{title}</h3>
         <div className="flex flex-row gap-2 lg:gap-3 pb-3 lg:pb-4 flex-wrap">
           {projectLabels.map((label, index) => (

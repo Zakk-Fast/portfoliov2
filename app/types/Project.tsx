@@ -3,6 +3,7 @@ export type ProjectLabel =
   | "Python"
   | "TypeScript"
   | "Node.js"
+  | "Next.js"
   | "PostgreSQL"
   | "FastAPI";
 

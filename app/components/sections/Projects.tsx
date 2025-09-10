@@ -12,11 +12,14 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
   return (
     <Container id="projects" className="pt-32">
       <SectionTitle title="Projects" />
-      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-4">
-        <div className="lg:col-span-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        {/* Featured project - spans 2 columns */}
+        <div className="lg:col-span-2 h-full">
           <ProjectCard project={featuredProject} />
         </div>
-        <div className="flex flex-col gap-4">
+
+        {/* Right column with two projects stacked */}
+        <div className="grid grid-rows-2 gap-4 h-full">
           {otherProjects.slice(0, 2).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
