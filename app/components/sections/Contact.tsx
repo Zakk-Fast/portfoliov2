@@ -14,7 +14,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/your-profile",
+      href: "https://linkedin.com/in/zachary-fast",
       external: true,
     },
     {
