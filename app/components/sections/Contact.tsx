@@ -32,8 +32,8 @@ const Contact = () => {
   ];
 
   return (
-    <Container className="pt-32 pb-20" id="contact">
-      <SectionTitle title="Contact" />
+    <Container className="pt-64 pb-20 min-h-screen" id="contact">
+      <SectionTitle title="contact" />
 
       <div className="max-w-2xl mx-auto text-center">
         {/* Circle icon links */}

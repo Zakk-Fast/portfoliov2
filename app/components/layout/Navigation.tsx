@@ -18,7 +18,7 @@ const Navigation = () => {
       <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-gray-400/20 rounded-xl px-6 py-4 max-w-6xl w-[calc(100%-3rem)]">
         <div className="flex justify-between items-center">
           <div className="text-xl font-semibold text-gray-800">
-            zakk fast <span className="text-cyan-400">.</span>
+            zakk fast<span className="text-cyan-400">.</span>
           </div>
 
           {/* Desktop Navigation */}

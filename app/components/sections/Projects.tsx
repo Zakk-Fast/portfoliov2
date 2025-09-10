@@ -10,8 +10,8 @@ interface ProjectProps {
 const Projects: React.FC<ProjectProps> = ({ projects }) => {
   const [featuredProject, ...otherProjects] = projects;
   return (
-    <Container id="projects" className="pt-32">
-      <SectionTitle title="Projects" />
+    <Container id="projects" className="pt-48">
+      <SectionTitle title="projects" />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Featured project - spans 2 columns */}
         <div className="lg:col-span-2 h-full">
