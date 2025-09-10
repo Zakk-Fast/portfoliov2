@@ -15,7 +15,7 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-gray-400/20 rounded-2xl px-6 py-4 max-w-6xl w-[calc(100%-3rem)]">
+      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-md bg-white/10 border border-gray-400/20 rounded-xl px-6 py-4 max-w-6xl w-[calc(100%-3rem)]">
         <div className="flex justify-between items-center">
           <div className="text-xl font-semibold text-gray-800">
             zakk fast <span className="text-cyan-400">.</span>
@@ -72,7 +72,7 @@ const Navigation = () => {
       {isOpen && (
         <div className="fixed top-24 right-6 z-50 md:hidden">
           <div
-            className={`w-64 backdrop-blur-md bg-white/80 border border-gray-400/30 rounded-2xl p-4 shadow-xl transition-all duration-300 ${
+            className={`w-64 backdrop-blur-md bg-white/80 border border-gray-400/30 rounded-xl p-4 shadow-xl transition-all duration-300 ${
               isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
             }`}
           >

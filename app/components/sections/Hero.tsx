@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="text-center mt-8">
           <a
             href="#projects"
-            className="bg-cyan-400 hover:bg-cyan-500 text-white px-8 py-4 rounded-lg transition-colors duration-200 font-medium shadow-lg shadow-cyan-400/20 inline-block"
+            className="bg-cyan-400 hover:bg-cyan-500 text-white px-8 py-4 rounded-xl transition-colors duration-200 font-medium shadow-lg shadow-cyan-400/20 inline-block"
           >
             View My Work
           </a>
