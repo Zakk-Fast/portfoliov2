@@ -54,7 +54,7 @@ const About = () => {
         </div>
 
         {/* Right side shapes */}
-        <div className="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:min-h-[600px]">
+        <div className="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2">
           <div className="relative w-[500px] h-[500px] bg-gray-50 rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
             <div className="blur-[2px]">
               {/* Large Triangle */}
