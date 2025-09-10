@@ -2,6 +2,8 @@ interface GeomotryShapesProps {
   scrollY: number;
 }
 
+// @TODO: Adjust speeds for shapes. Would like to have them vary in speed and direction, with overall direction of shappes expanding out.
+
 const GeomotryShapes: React.FC<GeomotryShapesProps> = ({ scrollY }) => {
   return (
     <div className="relative blur-[4px]">

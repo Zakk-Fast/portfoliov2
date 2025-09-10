@@ -14,10 +14,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <Container className="pt-48 min-h-screen pb-[5000px]" id="hero">
+    <Container className="pt-48 min-h-screen" id="hero">
       <GeomotryShapes scrollY={scrollY} />
       <div className="relative z-10">
-        <h1 className="text-7xl text-center font-bold">
+        <h1 className="text-4xl md:text-7xl text-center font-bold">
           Creating Digital
           <br /> Experiences That <br />
           <span className="bg-gradient-to-r from-gray-800 to-cyan-400 bg-clip-text text-transparent">
