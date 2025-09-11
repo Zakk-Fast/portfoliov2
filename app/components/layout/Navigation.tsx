@@ -30,9 +30,9 @@ const Navigation = () => {
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
                 <a href="#projects">Projects</a>
               </li>
-              <li className="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
+              {/* <li className="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
                 <a href="#blog">Blog</a>
-              </li>
+              </li> */}
               <li className="text-gray-600 hover:text-gray-800 cursor-pointer transition-colors">
                 <a href="#contact">Contact</a>
               </li>
@@ -103,13 +103,13 @@ const Navigation = () => {
                 </a>
               </li>
               <li>
-                <a
+                {/* <a
                   href="#blog"
                   className="block text-gray-800 hover:text-cyan-500 transition-colors text-base font-medium py-2"
                   onClick={closeMenu}
                 >
                   Blog
-                </a>
+                </a> */}
               </li>
               <li>
                 <a
