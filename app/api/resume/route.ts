@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const contentfulUrl = "https://assets.ctfassets.net/0b0og15jgw1m/42v3ffUForyRRcNlMuwXOK/b76e89fc96abfbabcfb6b908cd03638f/Zachary_Fast_Resume.pdf";
+    const contentfulUrl = "https://assets.ctfassets.net/0b0og15jgw1m/42v3ffUForyRRcNlMuwXOK/587a2bf62c20dab5290a319710da1562/Zachary_Fast.pdf";
     
     console.log('Fetching from:', contentfulUrl);
     
