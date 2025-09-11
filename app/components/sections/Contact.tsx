@@ -10,24 +10,28 @@ const Contact = () => {
       label: "Email",
       href: "mailto:zakkfastpro@gmail.com",
       external: false,
+      download: false,
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://linkedin.com/in/zachary-fast",
       external: true,
+      download: false,
     },
     {
       icon: Github,
       label: "GitHub",
       href: "https://github.com/Zakk-Fast",
       external: true,
+      download: false,
     },
     {
       icon: FileText,
       label: "Resume",
-      href: "#", // This will be replaced with Contentful URL later
+      href: "/api/resume",
       external: false,
+      download: true,
     },
   ];
 
@@ -46,6 +50,7 @@ const Contact = () => {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
+                download={link.download ? "Zachary-Fast-Resume.pdf" : undefined}
                 className="group w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md hover:border-2 hover:border-cyan-400 hover:scale-110 transition-all duration-300"
               >
                 <IconComponent

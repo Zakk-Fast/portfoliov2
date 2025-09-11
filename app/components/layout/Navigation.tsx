@@ -37,9 +37,16 @@ const Navigation = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <button className="border border-cyan-400 text-cyan-400 px-4 py-2 rounded hover:bg-cyan-400 hover:text-white transition-colors">
+                <a
+                  href="/api/resume"
+                  className="w-full border-2 border-cyan-400 text-cyan-500 px-3 py-2 rounded-lg hover:bg-cyan-400 hover:text-white transition-colors font-medium text-sm inline-block text-center"
+                  onClick={(e) => {
+                    console.log("Resume link clicked");
+                    closeMenu();
+                  }}
+                >
                   Resume
-                </button>
+                </a>
               </li>
             </ul>
           </div>
@@ -114,12 +121,16 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="pt-2 border-t border-gray-400/30">
-                <button
-                  className="w-full border-2 border-cyan-400 text-cyan-500 px-3 py-2 rounded-lg hover:bg-cyan-400 hover:text-white transition-colors font-medium text-sm"
-                  onClick={closeMenu}
+                <a
+                  href="/api/resume"
+                  className="w-full border-2 border-cyan-400 text-cyan-500 px-3 py-2 rounded-lg hover:bg-cyan-400 hover:text-white transition-colors font-medium text-sm inline-block text-center"
+                  onClick={(e) => {
+                    console.log("Resume link clicked");
+                    closeMenu();
+                  }}
                 >
                   Resume
-                </button>
+                </a>
               </li>
             </ul>
           </div>
