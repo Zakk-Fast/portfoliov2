@@ -6,9 +6,8 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  const { id, title, description, image, projectLabels, liveUrl, githubUrl } =
+  const { title, description, image, projectLabels, liveUrl, githubUrl } =
     project;
-  console.log(project.image);
   return (
     <div className="relative w-full border border-solid border-gray-400/20 rounded-xl shadow-sm overflow-hidden group">
       <img src={image} alt="" className="w-full h-full object-cover" />
