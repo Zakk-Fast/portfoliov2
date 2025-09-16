@@ -19,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           {projectLabels.map((label, index) => (
             <p
               key={index}
-              className="border border-solid border-gray-400/20 bg-white/20 rounded-2xl px-2 text-xs lg:text-sm"
+              className="border border-solid border-gray-400/20 bg-white/20 rounded-2xl px-2 text-xs lg:text-sm py-1 whitespace-nowrap"
             >
               {label}
             </p>
