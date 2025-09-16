@@ -20,9 +20,12 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
 
         {/* Right column with two projects stacked */}
         <div className="grid grid-rows-2 gap-4 h-full">
-          {otherProjects.slice(0, 2).map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
+          {otherProjects
+            .slice(0, 2)
+            .reverse()
+            .map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
         </div>
       </div>
     </Container>
